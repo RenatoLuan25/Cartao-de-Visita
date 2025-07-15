@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+.card {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+h1 {
+  color: #2a7ae4;
+}
+h2 {
+  margin-top: 20px;
+  color: #444;
+}
+.cidade {
+  font-style: italic;
+  color: #666;
+}
+a {
+  color: #2a7ae4;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

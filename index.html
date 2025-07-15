@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cartão de Visitas - Renato Luan</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="card">
+      <h1>{{ nome }}</h1>
+      <p class="cidade">Anápolis, GO — 25 anos</p>
+      <h2>Sobre mim</h2>
+      <p>{{ descricao }}</p>
+
+      <h2>Perfil Profissional</h2>
+      <ul>
+        <li>{{ profissao }}</li>
+        <li>{{ formacao }}</li>
+        <li>{{ experiencia1 }}</li>
+        <li>{{ experiencia2 }}</li>
+        <li>{{ caracteristicas }}</li>
+      </ul>
+
+      <h2>Contato</h2>
+      <p><strong>LinkedIn:</strong> <a :href="linkedin" target="_blank">{{ linkedin }}</a></p>
+      <p><strong>Email:</strong> {{ email }}</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
