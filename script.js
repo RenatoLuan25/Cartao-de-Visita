@@ -9,6 +9,7 @@ createApp({
       formacao: 'Formado em Redes de Computadores | Pós em Front-End (em andamento)',
       experiencia1: '3 anos como Analista de Sistema Hospitalar - SOULMV',
       experiencia2: '2 anos como Suporte N2',
+      experiencia3: '1 ano como Professor de Informática Básica',
       caracteristicas: 'Ágil, pontual, criativo e com princípios invioláveis',
       linkedin: 'https://www.linkedin.com/in/renato-luan-a21052236',
       email: 'renatoluanti@gmail.com'
